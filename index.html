@@ -1,38 +1,19 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="style.css">
-    <title>Parcial 2</title>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Random Number Generator</title>
+  <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    
-    <main>
-        <section class="section1">
-            <h1>Generar numeros aleatorios</h1>
-            <form class="form1" id="form1">
-                <div class="form1-div f1-dv1" id="form1-div1">
-                    <button class="form1-button1" id="form1-button1">GENERAR</button>
-                </div>
-                <div class="form1-div f1-dv2" id="form1-div2">
-                    <button class="form1-button2" id="form1-button2">ASC</button>
-                    <button class="form1-button3" id="form1-button3">DESC</button>
-                </div>
-            </form>
-        </section>
+  <div class="container">
+    <button id="generate-btn">Generar</button>
+    <button id="asc-btn">Ascendente</button>
+    <button id="desc-btn">Descendente</button>
+    <div id="number-grid" class="grid-container"></div>
+  </div>
 
-        <section class="section2">
-            <div class="container">
-                <ul>
-
-                </ul>
-            </div>
-            <div class="empty">
-                <p>No se ha generado ningun numero.</p>
-            </div>
-        </section>
-    </main>
-
+  <script src="app.js"></script>
 </body>
 </html>
